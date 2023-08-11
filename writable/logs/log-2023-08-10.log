@@ -1,0 +1,81 @@
+CRITICAL - 2023-08-10 20:36:11 --> Invalid file: "libros/editare.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/editare.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('libros/editare', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('libros/editare')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 20:46:44 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\libros\listar.php on line 35.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('libros/listar', [], true)
+ 3 APPPATH\Controllers\Libros.php(17): view('libros/listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 21:23:35 --> Invalid file: "templates/cabecera.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/cabecera.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('templates/cabecera', [], true)
+ 3 APPPATH\Controllers\Libros.php(17): view('templates/cabecera')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 21:24:20 --> Invalid file: "templates/cabecera.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/cabecera.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('templates/cabecera', [], true)
+ 3 APPPATH\Controllers\Libros.php(17): view('templates/cabecera')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 21:25:26 --> Undefined variable $libros
+in APPPATH\Views\templates\cabecera.php on line 13.
+ 1 APPPATH\Views\templates\cabecera.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\wamp64\\www\\biblioteca\\app\\Views\\templates\\cabecera.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\biblioteca\\app\\Views\\templates\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('templates/cabecera', [], true)
+ 5 APPPATH\Controllers\Libros.php(17): view('templates/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 21:25:42 --> Undefined variable $libros
+in APPPATH\Views\templates\cabecera.php on line 13.
+ 1 APPPATH\Views\templates\cabecera.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\wamp64\\www\\biblioteca\\app\\Views\\templates\\cabecera.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\biblioteca\\app\\Views\\templates\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('templates/cabecera', [], true)
+ 5 APPPATH\Controllers\Libros.php(17): view('templates/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 21:26:39 --> Undefined variable $libros
+in APPPATH\Views\templates\cabecera.php on line 13.
+ 1 APPPATH\Views\templates\cabecera.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\wamp64\\www\\biblioteca\\app\\Views\\templates\\cabecera.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\biblioteca\\app\\Views\\templates\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('templates/cabecera', [], true)
+ 5 APPPATH\Controllers\Libros.php(17): view('templates/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 23:05:02 --> Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+in APPPATH\Controllers\Libros.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Libros->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 23:05:07 --> Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+in APPPATH\Controllers\Libros.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Libros->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

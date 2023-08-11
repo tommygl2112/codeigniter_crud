@@ -15,4 +15,4 @@ It has been built from the
 
 # DB
 
-Import biblioteca.sql, you can find it in the root of app.# codeigniter_crud
+Import biblioteca.sql, you can find it in the root of app
